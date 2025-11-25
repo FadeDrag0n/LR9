@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Гра 21</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Гра «21»</h1>
+
+<div id="username"></div>
+
+<div class="scoreboard">
+    <div class="block">User: <span id="userScore">0</span></div>
+    <div class="block">Computer: <span id="compScore">0</span></div>
+</div>
+
+<div id="tries">Спроба 1 з 3</div>
+
+<button onclick="playRound()">Generate</button>
+
+<div class="cards">
+    <div>
+        <img id="userCard" src="">
+    </div>
+    <div>
+        <img id="compCard" src="">
+    </div>
+</div>
+
+<div id="winner"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

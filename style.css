@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 { 
+  margin-bottom: 5px; 
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 50px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.block {
+  background: #009cff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+#tries {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 40px;
+  font-size: 22px;
+  background: #00d500;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00b800;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.cards img {
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #444;
+}
+
+#winner {
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .cards { 
+      flex-direction: column; 
+      gap: 20px; 
+  }
+  .scoreboard { 
+      flex-direction: column; 
+      gap: 10px; 
+  }
+}
